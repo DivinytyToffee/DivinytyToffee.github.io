@@ -1,0 +1,97 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Adeptus Mechanicus officialis</title>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <div class="container">
+                <a href="#" class="brand-logo">
+                    <img src="image/mech-logo-small.png" width="64" alt="">
+                </a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">CULT MECHANICUS</a></li>
+                    <li><a href="#">ADEPTUS TERRA</a></li>
+                    <li><a href="#">ADEPTUS MINISTORUM</a></li>
+                    <li><a href="#">PLANETARUM FABRICA LIST</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="#">CULT MECHANICUS</a></li>
+                    <li><a href="#">ADEPTUS TERRA</a></li>
+                    <li><a href="#">ADEPTUS MINISTORUM</a></li>
+                    <li><a href="#">PLANETARUM FABRICA LIST</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+    <div class="home hoverable">
+        <div class="home_text_title">PELAGUS</div>
+        <div class="home_text_content hide-on-med-and-down">About Mars, the birthplace of the cult of the Machine and the main temple of Omnissia. House of enlightened people of the Imperium. All you need to know about the main shrine of Mechanicum</div>
+    </div>
+    
+    <div class="tech hoverable">
+        <div class="tech-title">
+            adinventionem facito nostri
+        </div>
+        <div class="tech-content hide-on-med-and-down">
+            The page will tell you about all the magnificent creations of the mechanics, blessed with the spirit of Mashina
+        </div>
+    </div>
+               
+    <div class="entry hoverable">
+        <div class="entry-title">
+            iungere ministerium
+        </div>
+        <div class="entry-text hide-on-med-and-down">
+            Join the cult mechanics. Start your Omnissia ministry right now.
+        </div>
+    </div>
+               
+    <div class="product hoverable">
+       <div class="product-title">
+           tabernam
+       </div>
+       <div class="product-text hide-on-med-and-down">
+           Technique, armor, weapons, stone-concrete and much more at wholesale prices. Have time to buy new Repulsors for your order!
+       </div>        
+    </div>
+    
+    <div class="library hoverable">
+        <div class="library-title">
+            Bibliotheca
+        </div>
+        <div class="library-text hide-on-med-and-down">
+            Here you can find a huge number of books, manuscripts, drawings and articles written by both the living and the dead, who died back by the Magicians and priests
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script>
+    (function($){
+  $(function(){
+
+    $('.button-collapse').sideNav();
+
+  }); // end of document ready
+})(jQuery);
+    </script>
+    <script>
+        $(".button-collapse").sideNav();
+        $( document ).ready(function(){
+            $(".button-collapse").sideNav();
+        })
+    </script>
+</body>
+</html>

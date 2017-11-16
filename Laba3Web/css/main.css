@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+body {
+	background: url(../image/Adeptus-Mechanicus-back_big.png) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	background-color: black;
+}
+
+nav {
+    background: #212121;
+}
+
+.home{
+    
+    width: 750px;
+    height: 300px;
+    background: url(../image/Mars.jpg);
+    opacity: 0.85;
+    color: #fafafa;
+    margin-left: 2.5%;
+    margin-top: 3%;
+    border: 1px solid #424242;
+    clear: left;
+}
+
+.home_text_title{
+
+    padding-top: 5.5%;
+    padding-left: 6%;
+    font-size: 36pt;
+}
+
+.home_text_content{
+    
+    text-align: right;
+    padding-top: 12%;
+    padding-left: 6%;
+    padding-right: 6%;
+    font-size: 12pt;
+}
+
+.tech{
+    
+    width: 500px;
+    height: 300px;
+    margin-left: 2.5%;
+    margin-top: 2%;
+    opacity: 0.85;
+    background-image: url(../image/mech-tech.png);
+    background-size: cover;
+    border: 1px solid #424242;
+    color: #fafafa;    
+    clear: left;
+}
+
+.tech-title{
+    text-transform: uppercase;
+    font-size: 24pt;
+    padding-left: 2%;
+    padding-top: 2%;
+    text-shadow: 1px 1px 2px #616161;
+}
+
+.tech-content{
+    text-align: right;
+    padding-top: 30%;
+    padding-right: 2%;
+    font-size: 13pt;
+    text-shadow: 1px 1px 2px #eeeeee; 
+}
+
+.entry{
+    width: 400px;
+    height: 650px;
+    background-image: url(../image/Techpriest-Adeptus-Mechanicus-4121344.jpg);
+    background-size: cover;
+    background-position: top;
+    float:left;
+    margin-left: 72%;
+    margin-top: -39.58%;
+    color: #fafafa;
+    border: 1px solid #424242;
+    opacity: 0.85;
+}
+
+.entry-title {
+    text-transform: uppercase;
+    font-size: 30pt;
+    text-shadow: 1px 1px 2px #616161;
+    padding-left: 3%;
+}
+
+.entry-text{
+    padding-top: 110%;
+    text-align: right;
+    font-size: 13pt;
+    padding-right: 7%;
+}
+
+.product{
+    width: 540px;
+    height: 300px;
+    background-image: url(../image/Repulsor2.png);
+    background-size: cover;
+    float: left;
+    margin-top: -19.8%;
+    margin-left: 36%;
+    color: #e0e0e0;
+    border: 1px solid #424242;
+    opacity: 0.85;
+}
+
+.product-title{
+    font-size: 36pt;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #212121;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+.product-text{
+    font-size: 12pt;
+    text-align: right;
+    padding-top: 25%;
+    padding-right: 5%;
+    color: #e0e0e0;
+    text-shadow: 1px 1px 2px #212121;        
+}
+
+.library{
+    width: 300px;
+    height: 300px;
+    background-image: url(../image/library.jpg);
+    float: left;
+    border: 1px solid #424242;
+    margin-top: -40.7%;
+    margin-left: 51.0%;
+    opacity: 0.85;
+    color: #fafafa;
+}
+
+.library-title{
+    text-transform: uppercase;
+    font-size: 25pt;
+    text-shadow: 1px 1px 2px #212121; 
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.library-text{
+    font-size: 11pt;
+    padding-top: 45%;
+    text-align: right;
+    text-shadow: 1px 1px 2px #212121;  
+}
+
+.home:hover{
+    opacity: 1;
+}
+
+.tech:hover{
+    opacity: 1;
+}
+
+.entry:hover{
+    opacity: 1;
+}
+
+.product:hover{
+    opacity: 1;
+}
+
+.library:hover{
+    opacity: 1;
+}
+
+.hoverable:hover {
+  -webkit-box-shadow: 0 8px 17px 0 rgba(245, 245, 245, 0.2), 0 6px 20px 0 rgba(245, 245, 245, 0.19);
+          box-shadow: 0 8px 17px 0 rgba(245, 245, 245, 0.2), 0 6px 20px 0 rgba(245, 245, 245, 0.19);
+}
