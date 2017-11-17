@@ -14,16 +14,13 @@ nav {
 }
 
 .home{
-    
     width: 750px;
     height: 300px;
     background: url(../image/Mars.jpg);
     opacity: 0.85;
     color: #fafafa;
-    margin-left: 2.5%;
-    margin-top: 3%;
     border: 1px solid #424242;
-    clear: left;
+    position: relative;
 }
 
 .home_text_title{
@@ -46,14 +43,12 @@ nav {
     
     width: 500px;
     height: 300px;
-    margin-left: 2.5%;
-    margin-top: 2%;
+
     opacity: 0.85;
     background-image: url(../image/mech-tech.png);
     background-size: cover;
     border: 1px solid #424242;
     color: #fafafa;    
-    clear: left;
 }
 
 .tech-title{
@@ -78,12 +73,11 @@ nav {
     background-image: url(../image/Techpriest-Adeptus-Mechanicus-4121344.jpg);
     background-size: cover;
     background-position: top;
-    float:left;
-    margin-left: 72%;
-    margin-top: -39.58%;
     color: #fafafa;
     border: 1px solid #424242;
     opacity: 0.85;
+    position: relative;
+    right: 17%;
 }
 
 .entry-title {
@@ -105,12 +99,11 @@ nav {
     height: 300px;
     background-image: url(../image/Repulsor2.png);
     background-size: cover;
-    float: left;
-    margin-top: -19.8%;
-    margin-left: 36%;
     color: #e0e0e0;
     border: 1px solid #424242;
     opacity: 0.85;
+    position: relative;
+    left: 4%;
 }
 
 .product-title{
@@ -134,12 +127,11 @@ nav {
     width: 300px;
     height: 300px;
     background-image: url(../image/library.jpg);
-    float: left;
     border: 1px solid #424242;
-    margin-top: -40.7%;
-    margin-left: 51.0%;
     opacity: 0.85;
     color: #fafafa;
+    position: relative;
+    left: 1%;
 }
 
 .library-title{
@@ -180,4 +172,10 @@ nav {
 .hoverable:hover {
   -webkit-box-shadow: 0 8px 17px 0 rgba(245, 245, 245, 0.2), 0 6px 20px 0 rgba(245, 245, 245, 0.19);
           box-shadow: 0 8px 17px 0 rgba(245, 245, 245, 0.2), 0 6px 20px 0 rgba(245, 245, 245, 0.19);
+}
+
+@media screen and (min-width: 1400px)  {
+    .home{
+        widows: 100px;
+    }
 }
