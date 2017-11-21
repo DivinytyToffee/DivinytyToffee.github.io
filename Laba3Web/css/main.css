@@ -14,8 +14,8 @@ nav {
 }
 
 .home{
-    width: 750px;
-    height: 300px;
+    width: 95%;
+    height: 38%;
     background: url(../image/Mars.jpg);
     opacity: 0.85;
     color: #fafafa;
@@ -27,7 +27,6 @@ nav {
 
     padding-top: 5.5%;
     padding-left: 6%;
-    font-size: 36pt;
 }
 
 .home_text_content{
@@ -39,11 +38,9 @@ nav {
     font-size: 12pt;
 }
 
-.tech{
-    
-    width: 500px;
-    height: 300px;
-
+.tech{ 
+    width: 105%;
+    height: 38%;
     opacity: 0.85;
     background-image: url(../image/mech-tech.png);
     background-size: cover;
@@ -53,7 +50,6 @@ nav {
 
 .tech-title{
     text-transform: uppercase;
-    font-size: 24pt;
     padding-left: 2%;
     padding-top: 2%;
     text-shadow: 1px 1px 2px #616161;
@@ -68,8 +64,8 @@ nav {
 }
 
 .entry{
-    width: 400px;
-    height: 650px;
+    width: 450%;
+    height: 80%;
     background-image: url(../image/Techpriest-Adeptus-Mechanicus-4121344.jpg);
     background-size: cover;
     background-position: top;
@@ -82,21 +78,20 @@ nav {
 
 .entry-title {
     text-transform: uppercase;
-    font-size: 30pt;
     text-shadow: 1px 1px 2px #616161;
     padding-left: 3%;
 }
 
 .entry-text{
-    padding-top: 110%;
+    padding-top: 107%;
     text-align: right;
     font-size: 13pt;
     padding-right: 7%;
 }
 
 .product{
-    width: 540px;
-    height: 300px;
+    width: 85%;
+    height: 38%;
     background-image: url(../image/Repulsor2.png);
     background-size: cover;
     color: #e0e0e0;
@@ -107,7 +102,6 @@ nav {
 }
 
 .product-title{
-    font-size: 36pt;
     text-transform: uppercase;
     text-shadow: 1px 1px 2px #212121;
     padding-top: 2%;
@@ -124,8 +118,8 @@ nav {
 }
 
 .library{
-    width: 300px;
-    height: 300px;
+    width: 80%;
+    height: 38%;
     background-image: url(../image/library.jpg);
     border: 1px solid #424242;
     opacity: 0.85;
@@ -136,7 +130,6 @@ nav {
 
 .library-title{
     text-transform: uppercase;
-    font-size: 25pt;
     text-shadow: 1px 1px 2px #212121; 
     padding-left: 5%;
     padding-top: 5%;
@@ -147,6 +140,22 @@ nav {
     padding-top: 45%;
     text-align: right;
     text-shadow: 1px 1px 2px #212121;  
+}
+
+.firstrow{
+    position: relative; 
+    margin-top: 2%;
+}
+
+.secondrow{
+    position: relative; 
+    margin-top: 2%;
+}
+
+.thirdrow{
+    position: relative; 
+    margin-left: 72%;
+    margin-top: -40.8%;
 }
 
 .home:hover{
@@ -174,8 +183,8 @@ nav {
           box-shadow: 0 8px 17px 0 rgba(245, 245, 245, 0.2), 0 6px 20px 0 rgba(245, 245, 245, 0.19);
 }
 
-@media screen and (min-width: 1400px)  {
-    .home{
-        widows: 100px;
-    }
+@media (min-width: 1201px){
+    .thirdrow{
+    margin-top: -10%;
+}
 }
