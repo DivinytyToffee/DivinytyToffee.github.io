@@ -14,8 +14,8 @@ nav {
 }
 
 .home{
-    width: 95%;
-    height: 38%;
+   /* width: 95%;
+    height: 38%;*/
     background: url(../image/Mars.jpg);
     opacity: 0.85;
     color: #fafafa;
@@ -39,8 +39,8 @@ nav {
 }
 
 .tech{ 
-    width: 105%;
-    height: 38%;
+   /* width: 105%;
+    height: 38%;*/
     opacity: 0.85;
     background-image: url(../image/mech-tech.png);
     background-size: cover;
@@ -57,23 +57,24 @@ nav {
 
 .tech-content{
     text-align: right;
-    padding-top: 30%;
+    padding-top: 23%;
     padding-right: 2%;
     font-size: 13pt;
     text-shadow: 1px 1px 2px #eeeeee; 
 }
 
 .entry{
-    width: 450%;
-    height: 80%;
+    /*width: 100%;
+    height: 80%;*/
     background-image: url(../image/Techpriest-Adeptus-Mechanicus-4121344.jpg);
     background-size: cover;
-    background-position: top;
+    background-position: center;
     color: #fafafa;
     border: 1px solid #424242;
     opacity: 0.85;
     position: relative;
-    right: 17%;
+/*    margin-left: 300%;
+    margin-top: -171.5%;*/
 }
 
 .entry-title {
@@ -83,22 +84,23 @@ nav {
 }
 
 .entry-text{
-    padding-top: 107%;
+    padding-top: 10%;
     text-align: right;
     font-size: 13pt;
     padding-right: 7%;
 }
 
 .product{
-    width: 85%;
-    height: 38%;
+    /*width: 85%;
+    height: 38%;*/
+    height: 350px;
     background-image: url(../image/Repulsor2.png);
     background-size: cover;
     color: #e0e0e0;
     border: 1px solid #424242;
     opacity: 0.85;
     position: relative;
-    left: 4%;
+    /*left: 4%;*/
 }
 
 .product-title{
@@ -111,21 +113,21 @@ nav {
 .product-text{
     font-size: 12pt;
     text-align: right;
-    padding-top: 25%;
+    padding-top: 21%;
     padding-right: 5%;
     color: #e0e0e0;
     text-shadow: 1px 1px 2px #212121;        
 }
 
 .library{
-    width: 80%;
-    height: 38%;
+    /*width: 80%;
+    height: 38%;*/
     background-image: url(../image/library.jpg);
     border: 1px solid #424242;
     opacity: 0.85;
     color: #fafafa;
     position: relative;
-    left: 1%;
+    /*left: 1%;*/
 }
 
 .library-title{
@@ -137,25 +139,9 @@ nav {
 
 .library-text{
     font-size: 11pt;
-    padding-top: 45%;
+    padding-top: 39%;
     text-align: right;
     text-shadow: 1px 1px 2px #212121;  
-}
-
-.firstrow{
-    position: relative; 
-    margin-top: 2%;
-}
-
-.secondrow{
-    position: relative; 
-    margin-top: 2%;
-}
-
-.thirdrow{
-    position: relative; 
-    margin-left: 72%;
-    margin-top: -40.8%;
 }
 
 .home:hover{
@@ -183,8 +169,286 @@ nav {
           box-shadow: 0 8px 17px 0 rgba(245, 245, 245, 0.2), 0 6px 20px 0 rgba(245, 245, 245, 0.19);
 }
 
-@media (min-width: 1201px){
-    .thirdrow{
-    margin-top: -10%;
+/*
+@media screen and (max-width: 425px){
+    
+    
+    
+    .home{
+        width: 400px;
+        height: 200px;
+    }
+    
+    .home_text_title {
+        padding-left: 25%;
+    }
+    
+    .library {
+        width: 400px;
+        height: 200px;
+        left: 0%
+    }
+    
+    .library-title{
+        padding-left: 25%;
+    }
+    
+    .tech{
+        width: 400px;
+        height: 200px;
+    }
+    
+    .tech-title {
+        padding-top: 10%;
+    }
+    
+    .product{
+        width: 400px;
+        height: 200px;
+        left: 0%;        
+    }
+    
+    .product-title{
+        padding-left: 25%;
+    }
+    
+    .entry{
+        height: 200px;
+        margin-left: 0%;
+        margin-top: 0%;
+        background-position: center;
+    }
+    
+    .entry-title {
+        padding-left: 25%;
+    }
+    
 }
+
+@media screen and (max-width: 320px){
+    
+    
+    
+    .home{
+        width: 300px;
+        height: 200px;
+    }
+    
+    .home_text_title {
+        padding-left: 25%;
+    }
+    
+    .library {
+        width: 300px;
+        height: 200px;
+        left: 0%
+    }
+    
+    .library-title{
+        padding-left: 25%;
+    }
+    
+    .tech{
+        width: 300px;
+        height: 200px;
+    }
+    
+    .tech-title {
+        padding-top: 10%;
+    }
+    
+    .product{
+        width: 300px;
+        height: 200px;
+        left: 0%;        
+    }
+    
+    .product-title{
+        padding-left: 25%;
+    }
+    
+    .entry{
+        width: 300px;
+        height: 200px;
+        margin-left: 0%;
+        margin-top: 0%;
+        background-position: center;
+    }
+    
+    .entry-title {
+        padding-left: 10%;
+    }
+    
 }
+
+@media screen and (max-width: 375px){
+    
+    
+    
+    .home{
+        
+        width: 350px;
+        height: 200px;
+    }
+    
+    .home_text_title {
+        padding-left: 25%;
+    }
+    
+    .library {
+        width: 350px;
+        height: 200px;
+        left: 0%
+    }
+    
+    .library-title{
+        padding-left: 25%;
+    }
+    
+    .tech{
+        width: 350px;
+        height: 200px;
+    }
+    
+    .tech-title {
+        padding-top: 10%;
+    }
+    
+    .product{
+        width: 350px;
+        height: 200px;
+        left: 0%;        
+    }
+    
+    .product-title{
+        padding-left: 25%;
+    }
+    
+    .entry{
+        width: 350px;
+        height: 200px;
+        margin-left: 0%;
+        margin-top: 0%;
+        background-position: center;
+    }
+    
+    .entry-title {
+        padding-left: 10%;
+    }
+    
+}
+
+@media screen and (max-width: 768px){ 
+    
+    .home{
+        
+        width: 350px;
+        height: 200px;
+    }
+    
+    .home_text_title {
+        padding-left: 25%;
+    }
+    
+    .library {
+        width: 350px;
+        height: 200px;
+        left: 0%
+    }
+    
+    .library-title{
+        padding-left: 25%;
+    }
+    
+    .tech{
+        width: 350px;
+        height: 200px;
+    }
+    
+    .tech-title {
+        padding-top: 10%;
+    }
+    
+    .product{
+        width: 350px;
+        height: 200px;
+        left: 0%;        
+    }
+    
+    .product-title{
+        padding-left: 25%;
+    }
+    
+    .entry{
+        width: 720px;
+        height: 200px;
+        margin-left: 0%;
+        margin-top: 0%;
+        background-position: center;
+    }
+    
+    .entry-title {
+        padding-left: 10%;
+    }
+    
+}
+
+@media screen and (max-width: 1024px){ 
+    
+    .home{
+        
+        width: 600px;
+        height: 280px;
+    }
+    
+    .home_text_title {
+        padding-left: 25%;
+    }
+    
+    .library {
+        width: 600px;
+        height: 280px;
+        left: 0%
+    }
+    
+    .library-text{
+        padding-top: 
+    }
+    
+    .library-title{
+        padding-left: 25%;
+    }
+    
+    .tech{
+        width: 350px;
+        height: 200px;
+    }
+    
+    .tech-title {
+        padding-top: 10%;
+    }
+    
+    .product{
+        width: 350px;
+        height: 200px;
+        left: 0%;        
+    }
+    
+    .product-title{
+        padding-left: 25%;
+    }
+    
+    .entry{
+        width: 720px;
+        height: 200px;
+        margin-left: 0%;
+        margin-top: 0%;
+        background-position: center;
+    }
+    
+    .entry-title {
+        padding-left: 10%;
+    }
+    
+}
+*/
